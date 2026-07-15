@@ -1,4 +1,4 @@
-FROM ruby:4.0.3-alpine
+FROM ruby:4.0.6-alpine
 
 # throw errors if Gemfile has been modified since Gemfile.lock
 RUN bundle config --global frozen 1
