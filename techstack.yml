@@ -1,0 +1,97 @@
+repo_name: alexravenna/domainstorytelling.org
+report_id: cc911fadf974830a92413687ee0824fe
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-13T11:04:11+00:00'
+requested_by: hschwentner
+provider: github
+branch: main
+detected_tools_count: 7
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 3.2.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/alexravenna/domainstorytelling.org/blob/main/.ruby-version
+  detection_source: Repo Metadata
+  last_updated_by: Henning Schwentner
+  last_updated_on: 2023-06-21 07:08:44.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/alexravenna/domainstorytelling.org
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/alexravenna/domainstorytelling.org
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/alexravenna/domainstorytelling.org/blob/main/.github/workflows/pages.yml
+  detection_source: ".github/workflows/pages.yml"
+  last_updated_by: Henning Schwentner
+  last_updated_on: 2023-06-21 07:05:48.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/alexravenna/domainstorytelling.org/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Henning Schwentner
+  last_updated_on: 2022-08-11 14:45:37.000000000 Z
+- name: Jekyll
+  description: Blog-aware, static site generator in Ruby
+  website_url: http://jekyllrb.com/
+  version: 4.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg
+  detection_source_url: https://github.com/alexravenna/domainstorytelling.org/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Henning Schwentner
+  last_updated_on: 2023-06-21 07:08:38.000000000 Z
+- name: jemoji
+  description: GitHub-flavored emoji plugin for Jekyll
+  package_url: https://rubygems.org/jemoji
+  version: 0.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/alexravenna/domainstorytelling.org/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Henning Schwentner
+  last_updated_on: 2023-06-21 07:08:38.000000000 Z
